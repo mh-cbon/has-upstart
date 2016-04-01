@@ -1,6 +1,6 @@
 var spawn = require('child_process').spawn;
 
-function hasSystemd (then) {
+function hasUpstart (then) {
   if (!process.platform.match(/(linux|freebsd|sunos)/)) return process.nextTick(function () {
     then('not compatible')
   });
@@ -21,4 +21,4 @@ function hasSystemd (then) {
   s.on('error', function () {})
 }
 
-module.exports = hasSystemd;
+module.exports = hasUpstart;
