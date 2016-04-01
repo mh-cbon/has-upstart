@@ -1,14 +1,18 @@
 {
   "name": "@mh-cbon/has-upstart",
   "version": "1.0.0",
-  "description": "",
+  "description": "tells if a system runs upstart service manager",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-not-ubuntu": "sh ./mocha-not-ubuntu.sh",
     "test-ubuntu": "sh ./mocha-ubuntu.sh"
   },
-  "keywords": [],
+  "keywords": [
+    "ubuntu",
+    "service",
+    "upstart"
+  ],
   "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
