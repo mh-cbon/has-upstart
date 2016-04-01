@@ -1,0 +1,17 @@
+{
+  "name": "has-upstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-not-ubuntu": "sh ./mocha-not-ubuntu.sh",
+    "test-ubuntu": "sh ./mocha-ubuntu.sh"
+  },
+  "keywords": [],
+  "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^8.3.0"
+  }
+}
