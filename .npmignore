@@ -1,2 +1,7 @@
-/fixtures/
 /test/
+/.vagrant/
+/Vagrantfile
+/mocha-ubuntu.sh
+/mocha-not-ubuntu.sh
+/run-tests-ubuntu.sh
+/run-tests-not-ubuntu.sh
